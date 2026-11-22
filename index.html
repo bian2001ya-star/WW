@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#747b4d">
+  <title>معرض أعمال يسرى | Yosra Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ticker" aria-label="Portfolio announcement">
+    <div class="ticker-track"><span>مرحباً بكم في معرض أعمال يسرى ✨ &nbsp;|&nbsp; أهلاً بالإبداع والأفكار الجديدة 🌷 &nbsp;|&nbsp; Welcome to Yosra’s Portfolio ✨ &nbsp;|&nbsp; Creativity Starts Here &nbsp;|&nbsp;</span><span aria-hidden="true">مرحباً بكم في معرض أعمال يسرى ✨ &nbsp;|&nbsp; أهلاً بالإبداع والأفكار الجديدة 🌷 &nbsp;|&nbsp; Welcome to Yosra’s Portfolio ✨ &nbsp;|&nbsp; Creativity Starts Here &nbsp;|&nbsp;</span></div>
+  </div>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Yosra Portfolio">
+        <span class="brand-mark">Y</span><span>Yosra Portfolio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="القائمة"><span></span><span></span><span></span></button>
+      <nav id="nav-links" class="nav-links" aria-label="Main navigation">
+        <a class="active" href="index.html" data-i18n="navHome">الرئيسية</a>
+        <a href="projects.html" data-i18n="navProjects">المشاريع</a>
+        <a href="contact.html" data-i18n="navContact">التواصل</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" type="button" aria-label="تبديل اللغة"><span class="lang-active">AR</span><span>/</span><span>EN</span></button>
+        <button class="theme-toggle" type="button" aria-label="تبديل الوضع"><span class="theme-icon">☀️</span></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content reveal">
+        <p class="eyebrow" data-i18n="hello">مرحباً، أنا يسرى</p>
+        <h1 data-i18n="heroName">يسرّى ياسر الأشول</h1>
+        <p class="hero-welcome" data-i18n="welcomeAr">أهلاً بكم في معرض أعمالي، أنا يسرى ياسر الأشول، سعيدة بوجودكم هنا، وأشارككم مجموعة من مشاريعي وأعمالي الإبداعية.</p>
+        <p class="hero-about" data-i18n="aboutAr">أنا يسرى، مهتمة بتصميم وتطوير مواقع الويب واستخدام تقنيات الذكاء الاصطناعي. أحب الإبداع وتعلم المهارات الجديدة وتحويل الأفكار إلى مشاريع رقمية جميلة.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="projects.html" data-i18n="explore">استكشف أعمالي</a>
+          <a class="btn btn-soft" href="contact.html" data-i18n="contactMe">تواصل معي</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-frame">
+          <img src="cover-copy.jpeg" width="900" height="1100" alt="تصميم معرض أعمال يسرى للويب والذكاء الاصطناعي" fetchpriority="high">
+        </div>
+        <span class="floating-badge" data-i18n="badge">تصميم &amp; ذكاء اصطناعي</span>
+      </div>
+    </section>
+
+    <section class="section projects-preview">
+      <div class="section-heading reveal">
+        <p class="eyebrow" data-i18n="selected">مختارات</p>
+        <h2 data-i18n="featured">مشاريعي المميزة</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-image"><img src="flor%20webp.jpeg" width="800" height="600" loading="lazy" alt="تصميم متجر ورد وحكاية للفصائل والزهور"></div>
+          <div class="project-body"><span class="project-tag" data-i18n="ecommerce">متجر إلكتروني</span><h3 data-i18n="florName">ورد وحكاية</h3><p data-i18n="florDesc">واجهة متجر ورد أنيقة بتنسيق بصري هادئ. صُممت لتقديم الباقات وتجربة اختيار سهلة ومميزة.</p><button class="card-link project-view" type="button" data-project="flor" data-i18n="viewProject">عرض المشروع <span>←</span></button></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="coffee%20webp.jpeg" width="800" height="600" loading="lazy" alt="تصميم هوية وموقع كافيه حبة بن للقهوة"></div>
+          <div class="project-body"><span class="project-tag" data-i18n="cafeDesign">تصميم مقهى</span><h3 data-i18n="coffeeName">كافيه حبة بن</h3><p data-i18n="coffeeDesc">هوية بصرية دافئة لمقهى متخصص بالقهوة والمشروبات. تجمع بين الأناقة ووضوح عرض القائمة.</p><button class="card-link project-view" type="button" data-project="coffee" data-i18n="viewProject">عرض المشروع <span>←</span></button></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="juice%20webp.jpeg" width="800" height="600" loading="lazy" alt="تصميم متجر عصائر طبيعية منعشة"></div>
+          <div class="project-body"><span class="project-tag" data-i18n="healthStore">متجر صحي</span><h3 data-i18n="juiceName">العصائر الطبيعية</h3><p data-i18n="juiceDesc">تصميم متجر عصائر نابض بالألوان والطاقة الإيجابية. يبرز المنتجات ويجعل الطلب بسيطاً وواضحاً.</p><button class="card-link project-view" type="button" data-project="juice" data-i18n="viewProject">عرض المشروع <span>←</span></button></div>
+        </article>
+      </div>
+      <div class="center-action reveal"><a class="btn btn-primary" href="projects.html" data-i18n="allProjects">عرض جميع المشاريع</a></div>
+    </section>
+
+    <section class="section contact-banner reveal">
+      <div><p class="eyebrow" data-i18n="letsTalk">لنتحدث عن فكرتك</p><h2 data-i18n="ready">هل لديك مشروع تريد تحويله إلى تجربة رقمية؟</h2></div>
+      <a class="whatsapp-btn" href="https://wa.me/966565478797" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">●</span> <span data-i18n="whatsapp">تواصل عبر واتساب</span></a>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">Y</span><span>Yosra Portfolio</span></a><p>© <span id="year"></span> <span data-i18n="copyright">يسرّى ياسر الأشول</span></p></footer>
+  <dialog class="project-modal" id="project-modal"><button class="modal-close" type="button" aria-label="إغلاق">×</button><div id="modal-content"></div></dialog>
+  <script src="main.js"></script>
+</body>
+</html>
